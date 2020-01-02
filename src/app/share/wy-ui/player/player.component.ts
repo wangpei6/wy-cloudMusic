@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlayerComponent implements OnInit {
 
+  bufferOffset = 70;
+  sliderValue = 35;
   constructor() { }
 
   ngOnInit() {
-  }
 
+  }
 }
